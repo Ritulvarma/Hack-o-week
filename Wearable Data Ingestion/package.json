@@ -1,0 +1,14 @@
+{
+  "name": "wearable-data-ingestion",
+  "version": "1.0.0",
+  "description": "API endpoint for wearable data ingestion via WebSockets with encryption",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "mongoose": "^7.5.0"
+  }
+}
